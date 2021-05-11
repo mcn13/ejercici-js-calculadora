@@ -4,9 +4,107 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Calculadora</title>
+
+    <script src="calculadora.js"></script>    
+
+    <link href="style.css" rel="stylesheet" type="text/css">
+    
+
 </head>
 <body>
+
+    <h1>CALCULADORA</h1>
+
+    <hr>
+
+    <table class="calculadora">
+
+        <tr>
+            <td colspan="4"><span id="resultado"></span></td>
+        </tr>
+        <tr>
+            <td><button type="button" onclick="dividir();">/</button></td>
+            <td><button type="button" onclick="multiplicar();">X</button></td>
+            <td><button type="button" onclick="restar()";>-</button></td>
+            <td><button type="button" onclick="sumar();">+</button></td>
+        </tr>
+        <tr>
+            <td><button id="btn7">7</button></td>
+            <td><button id="btn8">8</button></td>
+            <td><button id="btn9">9</button></td>
+            <td><button id="undo">«</button></td>
+        </tr>
+        <tr>
+            <td><button id="btn4">4</button></td>
+            <td><button id="btn5">5</button></td>
+            <td><button id="btn6">6</button></td>
+            <td><button id="limp">C</button></td>
+        </tr>
+        
+        <tr>
+            <td><button id="btn1">1</button></td>
+            <td><button id="btn2">2</button></td>
+            <td><button id="btn3">3</button></td>
+            <td><button id="resu">=</button></td>
+        </tr>
+
+        <tr>
+            <td><button id="coma">,</button></td>
+            <td><button id="btn0">0</button></td>            
+        </tr>
+
+    </table>
+
+    <!-- <form name="numeros">
+
+        
+        
+        
+        
+        
+        <p>
+            <label for="resultado">Resultado:</label>
+            <input type="number" id="resultado" name="resultadoOperacion">
+
+            <input id="input" type="text" autocomplete="off" spellcheck="false" name="input" value="" tabindex="1" class="" autocorrect="off" autocapitalize="off"></input>
+        </p>
+
+        <li>
+            <button type="button" onclick="dividir();">/</button>
+            <button type="button" onclick="multiplicar();">X</button>
+            <button type="button" onclick="restar()";>-</button>
+            <button type="button" onclick="sumar();">+</button>
+        </li>
+
+        <li>         
+            <button id="btn7">7</button>        
+            <button id="btn8">8</button>
+            <button id="btn9">9</button>
+            <button id="undo">«</button>
+        </li>
+
+        <li>
+            <button id="btn4">4</button>
+            <button id="btn5">5</button>        
+            <button id="btn6">6</button>
+            <button id="limp">C</button>
+        </li>
+
+        <li>
+            <button id="btn1">1</button>        
+            <button id="btn2">2</button>         
+            <button id="btn3">3</button>
+            <button id="resu">=</button>
+        </li>
+
+        <li>
+            <button id="coma">,</button>
+            <button id="btn0">0</button>
+        </li>              
+        
+
+    </form>  -->
     
 </body>
 </html>
